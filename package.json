@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "googleapis": "^140.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "nuxt": "^3.12.2",
+    "openai": "^4.52.0",
+    "util": "^0.12.5",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  }
+}
